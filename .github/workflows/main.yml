@@ -28,7 +28,7 @@ jobs:
 
     - name: Perform unit test
       run:
-        python -m pytest tests
+        python -m pytest coc105-cicd-lab/tests
 
     - name: Authenticate to Google Cloud
       uses: google-github-actions/auth@v2
